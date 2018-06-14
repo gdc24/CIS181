@@ -3,17 +3,18 @@
   <head>
 
     <title>Your First Page</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
 
   </head>
 
   <body>
     <h1>Heading 1</h1>
     <h2>Heading 2</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <hr>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p class="paragraphs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <!-- <hr> -->
+    <p class="paragraphs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
     <ul>
       <h2>Food</h2>
@@ -58,7 +59,7 @@
 
     </ul>
 
-    <table>
+    <table width="1000" cellspacing="40" align="center">
       <tr>
         <th></th>
         <!-- table header -->
@@ -108,6 +109,55 @@
       </tr>
 
     </table>
+
+    <form action="#" method="post">
+      <p>Name:
+        <input type="text" name="username" size="25" maxlength="50" placeholder="Name">
+      </p>
+
+      <p>Password:
+        <input type="password" name="password" size="25" maxlength="50" placeholder="Password">
+      </p>
+
+      <p>Comment:
+        <textarea name="comment" rows="8" cols="50" placeholder="Comment"></textarea>
+      </p>
+
+      <p>Select your favorite artist
+        <br>
+        <input type="radio" name="artist" value="kanye">Kanye
+        <br>
+        <input type="radio" name="artist" value="magritte">Magritte
+        <br>
+        <input type="radio" name="artist" value="beatles">The Beatles
+        <br>
+      </p>
+
+      <p>Select your favorite streaming service(s)
+        <br>
+        <input type="checkbox" name="service" value="youtube">Youtube
+        <br>
+        <input type="checkbox" name="service" value="applemusic">Apple Music
+        <br>
+        <input type="checkbox" name="service" value="spotify" checked="checked">Spotify
+        <br>
+      </p>
+
+      <p>Favorite album?
+        <select name="album">
+          <option value="abbeyroad">Abbey Road</option>
+          <option value="lateregistration">Late Registration</option>
+          <option value="mbdtf">My Beautiful Dark Twisted Fantasy</option>
+        </select>
+      </p>
+
+      <p>upload a file</p>
+      <input type="file" name="upload" value="">
+      <br>
+      <br>
+      <input type="submit" name="submit" value="Submit">
+
+    </form>
 
   </body>
 
