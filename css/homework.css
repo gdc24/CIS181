@@ -1,0 +1,23 @@
+body {
+  background-color: #D9C9B2;
+}
+
+h1 {
+  color: #245A72;
+  font-family: 'Garamond', serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #2D6E96;
+  font-family: 'Garamond', serif;
+}
+
+p {
+  font-family: 'Calibri', sans-serif;
+}
+
+p.paragraphs {
+  font-size: 14px;
+}

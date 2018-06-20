@@ -16,6 +16,7 @@ h1 {
   font-weight: bold;
   text-shadow: 4px 4px 2px;
   margin: 20px 20px 10px;
+  text-align: center;
   /* 1 argument for margin: all four sides
   2 arguments for margin: top/bottom, left/right
   3 arguments for margin: top, left/right, bottom
