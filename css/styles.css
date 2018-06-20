@@ -7,57 +7,56 @@
 
 body {
   background-color: #D9C9B2;
-}
 
-h1 {
-  color: #245A72;
-  font-family: 'Encode Sans Condensed', 'Garamond', serif;
-  font-size: 48px;
-  font-weight: bold;
-  text-shadow: 4px 4px 2px;
-  margin: 20px 20px 10px;
-  /* 1 argument for margin: all four sides
+  h1 {
+    color: #245A72;
+    font-family: 'Encode Sans Condensed', 'Garamond', serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 4px 4px 2px;
+    margin: 20px 20px 10px;
+    /* 1 argument for margin: all four sides
   2 arguments for margin: top/bottom, left/right
   3 arguments for margin: top, left/right, bottom
   4 arguments for margin: top, right, bottom, left */
-}
+  }
 
-h2 {
-  color: #2D6E96;
-  font-family: 'Tajawal', serif;
-  text-decoration: underline;
-  text-align: center;
-  border: #245A72 2px dashed;
-}
+  h2 {
+    color: #2D6E96;
+    font-family: 'Tajawal', serif;
+    text-decoration: underline;
+    text-align: center;
+    border: #245A72 2px dashed;
+  }
 
-p {
-  font-family: 'Roboto', 'Calibri', sans-serif;
-  line-height: 20px;
-  /* word-spacing: 20px; */
-  /* letter-spacing: 10px; */
-}
+  p {
+    font-family: 'Roboto', 'Calibri', sans-serif;
+    line-height: 20px;
+    /* word-spacing: 20px; */
+    /* letter-spacing: 10px; */
+  }
 
-p.paragraphs {
-  font-size: 14px;
-  text-align: justify;
-  /* width: 300px;
+  p.paragraphs {
+    font-size: 14px;
+    text-align: justify;
+    /* width: 300px;
   height: 100px;
   overflow: scroll; */
-  /* width is kind of same as max-width */
-}
+    /* width is kind of same as max-width */
+  }
 
-a {
-  color: #757456;
-  font-weight: bolder;
-  font-style: italic;
-}
+  a {
+    color: #757456;
+    font-weight: bolder;
+    font-style: italic;
+  }
 
-a,
-a:visited {
-  text-decoration: none;
-  color: #86A9BD;
-}
+  a,
+  a:visited {
+    text-decoration: none;
+    color: #86A9BD;
+  }
 
-a:hover {
-  text-decoration: underline;
-}
+  a:hover {
+    text-decoration: underline;
+  }
