@@ -1,38 +1,33 @@
 /* COLORS:
-#2D6E96
-#86A9BD
-#245A72
-#757456
-#D9C9B2 */
-
+#D71D00
+#B4EE18
+#8A1E0E
+#1047A4
+#07388A
+*/
 body {
-  background-color: #D9C9B2;
+  background-color: #FFFFFF;
 }
 
 h1 {
-  color: #245A72;
-  font-family: 'Encode Sans Condensed', 'Garamond', serif;
+  color: #D71D00;
+  font-family: 'PT Sans', sans-serif;
   font-size: 48px;
-  font-weight: bold;
-  text-shadow: 4px 4px 2px;
-  margin: 20px 20px 10px;
+  font-weight: bolder;
+  /* margin: 20px 20px 10px; */
   text-align: center;
-  /* 1 argument for margin: all four sides
-  2 arguments for margin: top/bottom, left/right
-  3 arguments for margin: top, left/right, bottom
-  4 arguments for margin: top, right, bottom, left */
 }
 
 h2 {
-  color: #2D6E96;
-  font-family: 'Tajawal', serif;
+  color: #1047A4;
+  font-family: 'Lato', sans-serif;
   text-decoration: underline;
   text-align: center;
-  border: #245A72 2px dashed;
+  border: #8A1E0E 2px dashed;
 }
 
 p {
-  font-family: 'Roboto', 'Calibri', sans-serif;
+  font-family: 'Lato', 'Calibri', sans-serif;
   line-height: 20px;
   /* word-spacing: 20px; */
   /* letter-spacing: 10px; */
@@ -48,7 +43,7 @@ p.paragraphs {
 }
 
 a {
-  color: #757456;
+  color: #B4EE18;
   font-weight: bolder;
   font-style: italic;
 }
@@ -56,9 +51,35 @@ a {
 a,
 a:visited {
   text-decoration: none;
-  color: #86A9BD;
+  color: #07388A;
 }
 
 a:hover {
   text-decoration: underline;
 }
+
+#page {
+  width: 1200px;
+  background-color: darkorchid;
+  height: 2500px;
+  float: left;
+}
+
+header {
+  width: 1200px;
+  float: left;
+  background-color: pink;
+}
+
+nav {
+  width: 1200px;
+  height: 50px;
+  float: left;
+  background-color: aquamarine;
+}
+
+aside {}
+
+main {}
+
+footer {}
