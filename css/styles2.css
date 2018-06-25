@@ -73,9 +73,35 @@ header {
   background-color: pink;
 }
 
+nav ul {
+  /* only really use if you are making list item smaller than the whole nav */
+  width: 1000px;
+  margin-left: 100px;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 75px;
+  font-size: 32px;
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 30px 5px;
+  /* margin-bottom: 20px;
+  width: 200px;
+  text-align: center; */
+}
+
+nav ul li a,
+nav ul li a:visited {
+  color: #b300b3;
+}
+
+nav ul li a:hover {}
+
 nav {
   width: 1200px;
-  height: 50px;
+  /* height: 50px; */
   float: left;
   background-color: aquamarine;
 }
@@ -97,6 +123,23 @@ main {
 footer {
   float: left;
   width: 1200px;
-  height: 50px;
+  /* height: 50px; */
   background-color: lightgreen;
+}
+
+#disney {
+  float: left;
+  background-color: maroon;
+  width: 965px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.shows {
+  float: left;
+  width: 185px;
+  height: 300px;
+  margin-left: 4px;
+  margin-right: 4px;
+  border: 2px solid black;
 }
