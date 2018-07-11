@@ -1,0 +1,38 @@
+/* Colors:
+chicago blue #58B9F7
+red #CC0000
+white #FFFFFF */
+
+.maintitle {
+  color: #58B9F7;
+}
+
+.events,
+.history,
+.news {
+  height: 400px;
+}
+
+.news {
+  background-color: #2B5A77;
+}
+
+.events {
+  background-color: #4E6777;
+}
+
+.history {
+  background-color: #4693C4;
+}
+
+.culture {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: #CC0000;
+}
+
+body {
+  background-color: lightgrey;
+}
