@@ -95,9 +95,26 @@ nav ul li {
 nav ul li a,
 nav ul li a:visited {
   color: #b300b3;
+  text-shadow: 0 1px 1px darkred;
+  opacity: 0.15px;
+  transition: all 0.3s ease-in-out;
 }
 
-nav ul li a:hover {}
+nav ul li a:hover {
+  /* opera */
+  -webkit-transition-property: background;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-function: ease;
+  /* safari */
+  /* -moz- */
+  transition-property: background;
+  transition-duration: 2.5s;
+  transition-function: ease;
+  /* firefox */
+  /* -chrome- */
+  /* chrome */
+  /* -o-; */
+}
 
 nav {
   width: 1200px;
@@ -130,7 +147,7 @@ footer {
 #disney {
   float: left;
   background-color: maroon;
-  width: 965px;
+  width: 985px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -142,4 +159,37 @@ footer {
   margin-left: 4px;
   margin-right: 4px;
   border: 2px solid black;
+}
+
+.results {
+  float: left;
+  width: 320px;
+  height: 200px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+
+a.news {
+  padding: 5px 10px;
+  background-color: azure;
+  transition: all 1.5s ease 0.5s;
+  -webkit-transition: all 1.5s ease 0.5s;
+  -chrome-transition: all 1.5s ease 0.5s;
+  -moz-transition: all 1.5s ease 0.5s;
+  /* transition-property: background;
+  transition-duration: 1.5s;
+  transition-timing-function: ease;
+  transition-delay: 0.5s; */
+}
+
+a.news:hover {
+  background-color: pink;
+  color: magenta;
+}
+
+.shows a:hover img {
+  transform-origin: top left;
+  transform: scale(1.1);
 }
