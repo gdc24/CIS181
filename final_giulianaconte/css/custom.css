@@ -1,13 +1,10 @@
-/* COLORS
-#FF9C00 orange
-#D93B0A red
-#0CA1C2 blue
-#4C0C82 purple
-#056633 green
-*/
-/* .navbar {
-  background-color: #e3f2fd;
-} */
+:root {
+  --orange: #FF9C00;
+  --red: #D93B0A;
+  --blue #0CA1C2;
+  --purple: #4C0C82;
+  --green: #056633;
+}
 
 .most-recent-blurb {
   background-color: white;
@@ -68,8 +65,38 @@ body {
 .footer h1 {
   font-size: 16px;
 }
+
+a {
+  transition: all 0.3s ease-in-out;
+  color: #056633;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #07964B;
+}
+
+a:visited {
+  color: #FF9C00;
+}
 /* about us page */
+.banner {
+  background-color: #0CA1C2;
+  color: white;
+  padding: 1%;
+  margin-top: 1%;
+}
 
 .info-blurbs {
   margin: 3% 0 1%;
+}
+
+.aboutus-photo {
+  padding: 1%;
+}
+/* members page */
+/* upcoming page */
+
+.upcoming-photo {
+  padding: 1%;
 }
