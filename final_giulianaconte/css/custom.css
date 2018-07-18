@@ -1,0 +1,75 @@
+/* COLORS
+#FF9C00 orange
+#D93B0A red
+#0CA1C2 blue
+#4C0C82 purple
+#056633 green
+*/
+/* .navbar {
+  background-color: #e3f2fd;
+} */
+
+.most-recent-blurb {
+  background-color: white;
+  border: 2px solid black;
+  margin-right: 3.5%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  padding-top: 1%;
+}
+
+.embed-responsive {
+  margin-left: 3.5%;
+}
+
+#myCarousel {
+  /* height: 20%;
+  width: auto; */
+  margin: 0.5% 2% 2%;
+}
+
+.connect-banner {
+  background-color: #4C0C82;
+  color: white;
+  padding: 1%;
+  /* margin-bottom: 3%; */
+}
+
+.social-icons {
+  /* margin-bottom: 3%; */
+  background-color: #0CA1C2;
+  padding: 3%;
+  margin: 0.5% 1% 1%;
+}
+
+.social-icons a {
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+
+.social-icons a:hover {
+  color: lightgrey;
+}
+
+.social-icons a:visited {
+  color: #FF9C00;
+}
+
+body {
+  font-size: 100%;
+}
+
+.footer {
+  background-color: lightgrey;
+  padding-top: 5%;
+  padding-bottom: 1%;
+}
+
+.footer h1 {
+  font-size: 16px;
+}
+/* about us page */
+
+.info-blurbs {
+  margin: 3% 0 1%;
+}
